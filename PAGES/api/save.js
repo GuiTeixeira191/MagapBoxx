@@ -20,15 +20,15 @@ export default async (req, res) => {
 
         const sheetConfig = doc.sheetsByIndex[2]
         await sheetConfig.loadCells('A3:B3')
-  
+
         const mostrarPromocaoCell = sheetConfig.getCell(2 , 0)
         const textoCell = sheetConfig.getCell(2 , 1)
 
         let Cupom = ''
         let Promo = ''
         if (mostrarPromocaoCell.value === 'VERDADEIRO') {
-           Cupom = genCupom()
-           Promo = textoCell.value
+            Cupom = genCupom()
+            Promo = textoCell.value
         }
 
         await sheet.addRow({
