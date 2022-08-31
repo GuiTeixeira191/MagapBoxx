@@ -44,7 +44,7 @@ const Pesquisa = () => {
             <div className='text-center m-6'>
                 <p>
                     A Magap Usinagem está em busca de entender os seus clientes. <br/>
-                    Por isso, estamos abertos a ouvir sua opinião.
+                    Por isso, estamos sempre abertos a ouvir sua opinião.
                 </p>
             </div>
             {!sucess && <div>
