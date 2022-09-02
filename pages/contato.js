@@ -7,11 +7,8 @@ const Contato = () => {
         <div>
             <PageTitle title='Fale conosco' />
             <h1>Contato</h1>
-            <div>
-                <Link href='/'>
-                    <a>Home</a>
-                </Link>
-            </div>
+            <div/>
+
         </div>
     )
 }
