@@ -14,8 +14,8 @@ const Sobre = () => {
                 <p>Após anos atuando no mercado contamos com clientes altamente fidelizados, estando plenamente satisfeitos com nosso atendimento. Isto mostra o grau de comprometimento que nossa equipe de colaboradores possuem.</p>
             </div>
             <div className='flex justify-center mt-10 mb-10'>
-            <img className="drop-shadow-md hover:drop-shadow-xl mx-6" src="/certificado1.jpg" alt="certificado1"/>
-            <img className="drop-shadow-md hover:drop-shadow-xl" src="/certificado2.jpg" alt="certificado1"/>
+                <img className="drop-shadow-md hover:drop-shadow-xl mx-6" src="/certificado1.jpg" alt="certificado1"/>
+                <img className="drop-shadow-md hover:drop-shadow-xl" src="/certificado2.jpg" alt="certificado1"/>
             </div>
         </div>
     );
