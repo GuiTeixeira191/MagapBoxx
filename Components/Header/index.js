@@ -11,16 +11,16 @@ const Header = () => {
             </div>
             <div className="text-center mt-5">
                 <Link href= '/'>
-                    <a className="hover:underline px-2 text-2xl">Home</a>
+                    <a className="hover:underline px-2 text-2xl font-bold">Home</a>
                 </Link>
                 <Link href= '/sobre'>
-                    <a className="hover:underline px-2 text-2xl">Sobre</a>
+                    <a className="hover:underline px-2 text-2xl font-bold">Sobre</a>
                 </Link>
                 <Link href='/contato'>
-                    <a className="hover:underline px-2 text-2xl">Contato</a>
+                    <a className="hover:underline px-2 text-2xl font-bold">Contato</a>
                 </Link>
                 <Link href='/pesquisa'>
-                    <a className="hover:underline px-2 text-2xl">Pesquisa</a>
+                    <a className="hover:underline px-2 text-2xl font-bold">Pesquisa</a>
                 </Link>
             </div>
         </div>
