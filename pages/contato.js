@@ -5,8 +5,7 @@ import { Wrapper, Status } from "@googlemaps/react-wrapper";
 
 const Contato = () => {
     return (
-        
-        <div>
+        <>
             <div>
             <PageTitle title='Fale conosco' />
             </div>
@@ -20,9 +19,7 @@ const Contato = () => {
                 (12) 3933-7835
                 <p className='text-sky-900 font-bold'>magap@magap.com.br</p>
             </div>
-
-
-        </div>
+        </>
     )
 }
 

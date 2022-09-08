@@ -9,7 +9,7 @@ const Index = () => {
     const {data, error} = useSWR ('/api/get-promo' , fetcher )
    // return (<pre>{JSON.stringify(data)}</pre>)//
     return (
-        <div>
+        <>
             <PageTitle title='Seja bem-vindo!' />
             <p className='mt-6 text-center'>
                 A Magap Usinagem sempre busca atender melhor os seus clientes!<br/>
@@ -26,7 +26,7 @@ const Index = () => {
                 {data.message}
             </p>
             }
-        </div>
+        </>
     )
 }
 

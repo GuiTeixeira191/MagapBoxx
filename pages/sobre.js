@@ -4,7 +4,7 @@ import PageTitle from '../Components/PageTitle'
 
 const Sobre = () => {
     return (
-        <div >
+        <>
             <div>
                 <PageTitle title='Sobre nós' />
                 <h1 className='text-center font-bold p-8 text-3xl'>Sobre Nós</h1>
@@ -17,7 +17,7 @@ const Sobre = () => {
                 <img className="drop-shadow-md hover:drop-shadow-xl mx-6" src="/certificado1.jpg" alt="certificado1"/>
                 <img className="drop-shadow-md hover:drop-shadow-xl" src="/certificado2.jpg" alt="certificado1"/>
             </div>
-        </div>
+        </>
     );
 }
 
